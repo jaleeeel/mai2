@@ -9,26 +9,22 @@ body{
     align-items: center;
     justify-content: center;
     text-align: justify;
-    height: 100vh;
-    overflow: hidden;
 
     
 }
 p{
    font-size: 13px;
-    line-height: 1.5; 
-    background: url(mai2.jpg);
-    background-attachment: center;
-    -webkit-background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    -webkit-background-clip: text;
-    background-attachment: center;
-    -webkit-text-fill-color: rgba(255, 255, 255, 0.1);
-    max-width: 90%;
-    margin: 0 5%;
-    
+   line-height: 10px;
+   background: url(mai2.jpg);
+   background-attachment: center;
+   -webkit-background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
+   -webkit-background-clip: text;
+   background-attachment: center;
+   -webkit-text-fill-color: rgba(255, 255, 255, 0.1); 
 }
+
 @media only screen and (max-width: 768px) {
     p {
         font-size: 12px; /* Adjust font size for smaller screens */
