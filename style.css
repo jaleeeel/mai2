@@ -1,33 +1,26 @@
 body{
     margin: 0;
     padding: 0;
-    background-color: black;
+    background-color: rgb(2, 2, 2);
+    max-width: 1920px;
+    max-height: 1000px;
+    font-family: 'Times New Roman', Times, serif;
+    display: center;
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+
     
 }
 p{
-   line-height: 20px;
-   text-align: center;
+   font-size: 13px;
+   line-height: 10px;
+   background: url(mai2.jpg);
+   background-attachment: center;
    -webkit-background-size: cover;
-   background-size: cover;
-   background-image: no-repeat;
+   background-repeat: no-repeat;
    background-position: center;
-   background: url(mai2.jpg) no-repeat;
-   background-attachment: fixed;
    -webkit-background-clip: text;
-   -webkit-text-fill-color: rgba(255, 255, 255, 0); 
-}
-@media (max-width: 768px) {
-    p {
-        font-size: 10px;
-        line-height: 20px;
-        background-size: contain;
-    }
-}
-
-@media (max-width: 480px) {
-    p {
-        font-size: 20px;
-        background-size: contain;
-        background-attachment: scroll;
-    }
+   background-attachment: center;
+   -webkit-text-fill-color: rgba(255, 255, 255, 0.1); 
 }
